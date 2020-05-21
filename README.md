@@ -2,4 +2,4 @@
 SIPB Badges Project for fun achievements
 
 ## Maintainers:
-- jnoguera ('23)
+jnoguera ('23)
