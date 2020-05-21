@@ -6,3 +6,4 @@ SIPB Badges Project for fun achievements
 - sabina22 ('22)
 - rihn
 - Michael Gilbert <gilbertm@mit.edu> ('22)
+- fionalin ('23)
