@@ -40,6 +40,7 @@ body {
 
 .logo {
     margin-left: 1.25rem;
+    flex-grow: 1;
 }
 
 nav {
