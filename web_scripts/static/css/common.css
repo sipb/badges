@@ -39,6 +39,32 @@ body {
     top: 0;
 }
 
+#header-search {
+    display: none;
+    background-color: white;
+    align-items: center;
+    width: 100%;
+    margin: 0.25rem;
+}
+
+#header-search form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#header-search input {
+    border: none;
+    padding-left: 0.5rem;
+    flex-grow: 1;
+}
+
+#header-search button {
+    border: none;
+    padding: 0.25rem;
+    background-color: white;
+}
+
 .logo {
     margin-left: 1.25rem;
     flex-grow: 1;
@@ -124,5 +150,10 @@ nav a {
 
     nav a {
         display: inline;
+    }
+
+    #header-search {
+        display: flex;
+        width: auto;
     }
 }

@@ -1,29 +1,3 @@
-#badge-search {
-    display: none;
-    background-color: white;
-    align-items: center;
-    width: 100%;
-    margin: 0.25rem;
-}
-
-#badge-search form {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-#badge-search input {
-    border: none;
-    padding-left: 0.5rem;
-    flex-grow: 1;
-}
-
-#badge-search button {
-    border: none;
-    padding: 0.25rem;
-    background-color: white;
-}
-
 .banner {
     display: flex;
     flex-direction: column;
@@ -65,6 +39,11 @@
 
 /* Landscape phone, tablets, and desktop */
 @media only screen and (min-width: 700px) {
+    #badge-search {
+        display: flex;
+        width: auto;
+    }
+
     .badges-list {
         flex-direction: row;
         flex-wrap: wrap;
