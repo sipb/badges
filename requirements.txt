@@ -1,4 +1,4 @@
-Django==1.6.10
-argparse==1.2.1
-wheel==0.34.2
-wsgiref==0.1.2
+asgiref==3.2.7
+Django==3.0.7
+pytz==2020.1
+sqlparse==0.3.1
