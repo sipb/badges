@@ -6,24 +6,15 @@ SIPB Badges Project for fun achievements.
 
 ## Installing
 
-The project uses old versions of Python, pip, and Django that is used by SIPB
-Scripts service. Required packages are listed in `requirements.txt` To avoid version
-conflicts and make development easier, usage of `virtualenv` is recommended. In the 
-repo's root folder, run the following commands if `virtualenv` is installed.
+Required packages are listed in `requirements.txt` To avoid version
+conflicts and make development easier, usage of `venv` is recommended. To
+install all dependencies, run the following command.
 
 ```
-python -m virtualenv venv
-source venv/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt    # In Windows: pip install -r requirements.txt
 ```
 
-The first line tells `virtualenv` to create a new virtual environment and store
-required binaries and scripts in `venv`. The second line activates the environment.
-In this environment, your `pip install` will only affect this environment not your
-own installation of Python. The last line installs all requirements listed in the
-file `requirements.txt`.
-
-You are now ready to develop. Have fun!
+You are now ready to write some code. Have fun!
 
 ## Contributing
 
