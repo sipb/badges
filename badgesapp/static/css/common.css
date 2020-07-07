@@ -98,6 +98,8 @@ nav a {
 
 .main {
     margin-top: 90px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +123,36 @@ nav a {
     color: black;
     border: 1.5px solid rgb(202, 0, 0);
 }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    width: 100%;
+}
+
+.accordion > button {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+
+.accordion > .active, .accordion > button:hover {
+background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordion > .panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+} 
+
 
 /* Landscape phone, tablets, and desktop */
 @media only screen and (min-width: 700px) {

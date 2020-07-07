@@ -15,3 +15,18 @@ function headerSearch() {
         search.style.display = "flex";
     }
 }
+
+var accordionList = document.getElementsByClassName("accordion");
+for (const acc of accordionList) {
+    acc.addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panelList = acc.getElementsByClassName("panel");
+        for (const panel of panelList) {
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        }
+    });
+}
