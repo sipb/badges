@@ -38,6 +38,6 @@ project, consider checking out the [wiki](https://github.com/sipb/Badges/wiki).
 ## Maintainers:
 - jnoguera ('23)
 - sabina22 ('22)
-- rihn
-- Michael Gilbert <gilbertm@mit.edu> ('22)
+- rihn | rihn [at] mit [dot] edu
+- Michael Gilbert ('22) | <gilbertm@mit.edu>
 - fionalin ('23)
