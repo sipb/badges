@@ -135,7 +135,7 @@ color: #444;
 cursor: pointer;
 padding: 18px;
 width: 100%;
-text-align: left;
+text-align: center;
 border: none;
 outline: none;
 transition: 0.4s;
@@ -203,5 +203,9 @@ overflow: hidden;
     #header-search {
         display: flex;
         width: auto;
+    }
+    
+    .main {
+        width: 70%;
     }
 }

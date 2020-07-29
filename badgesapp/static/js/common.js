@@ -16,16 +16,17 @@ function headerSearch() {
     }
 }
 
-var accordionList = document.getElementsByClassName("accordion");
+var accordionList = document.getElementsByClassName("accordion-button");
 for (const acc of accordionList) {
     acc.addEventListener("click", function () {
-        this.classList.toggle("active");
-        var panelList = acc.getElementsByClassName("panel");
+        var parent = this.parentNode;
+        parent.classList.toggle("active");
+        var panelList = parent.getElementsByClassName("panel");
         for (const panel of panelList) {
-            if (panel.style.display === "block") {
+            if (panel.style.display === "flex") {
                 panel.style.display = "none";
             } else {
-                panel.style.display = "block";
+                panel.style.display = "flex";
             }
         }
     });

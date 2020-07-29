@@ -14,42 +14,22 @@
     </p>
 </div>
 
+{% for category in category_list %}
 <div class="accordion">
-    <button></button>
+    <button class="accordion-button">{{ category.name }}</button>
     <div class="badges-list panel">
+        {% for badge in category.badges_list %}
         <div class="badge">
             <img class="badge-img" 
-                src="../static/GrumpyFuzzball-meteor-back.png">
+                src="{{ badge.img_src }}">
             <div class="badge-desc">
-                <h3>Meteoric Fuzzball</h3>
-                <p>Lorem ipsum. Lorem ipsum.</p>
+                <h3>{{ badge.name }}</h3>
+                <p>{{ badge.description }}</p>
             </div>
         </div>
-        <div class="badge">
-            <img class="badge-img" 
-                src="../static/GrumpyFuzzball-meteor-back.png">
-            <div class="badge-desc">
-                <h3>Meteoric Fuzzball</h3>
-                <p>Lorem ipsum. Lorem ipsum.</p>
-            </div>
-        </div>
-        <div class="badge">
-            <img class="badge-img" 
-                src="../static/GrumpyFuzzball-meteor-back.png">
-            <div class="badge-desc">
-                <h3>Meteoric Fuzzball</h3>
-                <p>Lorem ipsum. Lorem ipsum.</p>
-            </div>
-        </div>
-        <div class="badge">
-            <img class="badge-img" 
-                src="../static/GrumpyFuzzball-meteor-back.png">
-            <div class="badge-desc">
-                <h3>Meteoric Fuzzball</h3>
-                <p>Lorem ipsum. Lorem ipsum.</p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </div>
+{% endfor %}
 
 {% endblock %}
